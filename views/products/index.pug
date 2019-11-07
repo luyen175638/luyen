@@ -1,0 +1,389 @@
+doctype html
+head
+  title Trang ch&#x1EE7;
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js')
+  style(type='text/css').
+    .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    }
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+// Navbar
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark.fixed-top
+  a.navbar-brand(href='#') Logo
+  ul.navbar-nav
+    li.nav-item
+      a.nav-link(href='#') TRANG CH&#x1EE6;
+    li.nav-item
+      a.nav-link(href='#') TIN T&#x1EE8;C
+    li.nav-item
+      a.nav-link(href='#') H&#x1AF;&#x1EDA;NG D&#x1EAA;N
+    li.nav-item
+      a.nav-link(href='#') THANH TO&Aacute;N
+    li.nav-item
+      a.nav-link(href='#') SIM VIP
+    li.nav-item
+      a.nav-link(href='#') LI&Ecirc;N H&#x1EC6;
+    li.nav-item
+      a.nav-link(href='#') D&#x1ECA;CH V&#x1EE4;
+    li.nav-item
+      a.nav-link(href='#') TUY&#x1EC2;N D&#x1EE4;NG
+    li.nav-item
+      a.nav-link(href='#') PHONG TH&#x1EE6;Y
+    input(type='text', placeholder='Search..')
+    // <a class="navbar-brand" href="#"></a>
+.container-fluid(style='padding-top: 56px')
+  .row
+    // 
+    .col-sm-3(style='background-color:lavenderblush; padding: 0')
+      // tim sim theo mang
+      div
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo M&#x1EA1;ng
+        // dropdown viettel
+        .dropdown(style='width: 100%')
+          button.btn(type='button')
+            a(href='#') Viettel
+          .dropdown-content(style='width: 300px')
+            .row
+              .col
+                a(href='#') Sim T&#x1EE9; Qu&yacute;
+                a(href='#') Sim Ng&utilde; Qu&yacute;
+                a(href='#') Sim L&#x1EE5;c Qu&yacute;
+                a(href='#') Sim L&#x1ED9;c Ph&aacute;t
+                a(href='#') Sim Th&#x1EA7;n T&agrave;i
+                a(href='#') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+                a(href='#') Sim Taxi 2
+                a(href='#') Sim Taxi 3
+                a(href='#') Sim Taxi 4
+                a(href='#') N&abreve;m Sinh DD/MM/YY
+              .col
+                a(href='#') Sim L&#x1EB7;p
+                a(href='#') Sim K&eacute;p
+                a(href='#') Sim &Dstrok;&#x1ED1;i
+                a(href='#') Sim &Dstrok;&#x1EA3;o
+                a(href='#') Sim G&aacute;nh
+                a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+                a(href='#') Sim N&abreve;m Sinh
+                a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+                a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+                a(href='#') Sim Tam Hoa K&eacute;p
+        // dropdown vinaphone
+        .dropdown(style='width: 100%')
+          button.btn(type='button')
+            a(href='#') Vinaphone
+          .dropdown-content(style='width: 300px')
+            .row
+              .col
+                a(href='#') Sim T&#x1EE9; Qu&yacute;
+                a(href='#') Sim Ng&utilde; Qu&yacute;
+                a(href='#') Sim L&#x1EE5;c Qu&yacute;
+                a(href='#') Sim L&#x1ED9;c Ph&aacute;t
+                a(href='#') Sim Th&#x1EA7;n T&agrave;i
+                a(href='#') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+                a(href='#') Sim Taxi 2
+                a(href='#') Sim Taxi 3
+                a(href='#') Sim Taxi 4
+                a(href='#') N&abreve;m Sinh DD/MM/YY
+              .col
+                a(href='#') Sim L&#x1EB7;p
+                a(href='#') Sim K&eacute;p
+                a(href='#') Sim &Dstrok;&#x1ED1;i
+                a(href='#') Sim &Dstrok;&#x1EA3;o
+                a(href='#') Sim G&aacute;nh
+                a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+                a(href='#') Sim N&abreve;m Sinh
+                a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+                a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+                a(href='#') Sim Tam Hoa K&eacute;p
+        // dropdown mobifone
+        .dropdown(style='width: 100%')
+          button.btn(type='button')
+            a(href='#') Mobifone
+          .dropdown-content(style='width: 300px')
+            .row
+              .col
+                a(href='#') Sim T&#x1EE9; Qu&yacute;
+                a(href='#') Sim Ng&utilde; Qu&yacute;
+                a(href='#') Sim L&#x1EE5;c Qu&yacute;
+                a(href='#') Sim L&#x1ED9;c Ph&aacute;t
+                a(href='#') Sim Th&#x1EA7;n T&agrave;i
+                a(href='#') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+                a(href='#') Sim Taxi 2
+                a(href='#') Sim Taxi 3
+                a(href='#') Sim Taxi 4
+                a(href='#') N&abreve;m Sinh DD/MM/YY
+              .col
+                a(href='#') Sim L&#x1EB7;p
+                a(href='#') Sim K&eacute;p
+                a(href='#') Sim &Dstrok;&#x1ED1;i
+                a(href='#') Sim &Dstrok;&#x1EA3;o
+                a(href='#') Sim G&aacute;nh
+                a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+                a(href='#') Sim N&abreve;m Sinh
+                a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+                a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+                a(href='#') Sim Tam Hoa K&eacute;p
+        // gmobile
+        .dropdown(style='width: 100%')
+          button.btn(type='button')
+            a(href='#') Gmobile
+          .dropdown-content(style='width: 300px')
+            .row
+              .col
+                a(href='#') Sim T&#x1EE9; Qu&yacute;
+                a(href='#') Sim Ng&utilde; Qu&yacute;
+                a(href='#') Sim L&#x1EE5;c Qu&yacute;
+                a(href='#') Sim L&#x1ED9;c Ph&aacute;t
+                a(href='#') Sim Th&#x1EA7;n T&agrave;i
+                a(href='#') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+                a(href='#') Sim Taxi 2
+                a(href='#') Sim Taxi 3
+                a(href='#') Sim Taxi 4
+                a(href='#') N&abreve;m Sinh DD/MM/YY
+              .col
+                a(href='#') Sim L&#x1EB7;p
+                a(href='#') Sim K&eacute;p
+                a(href='#') Sim &Dstrok;&#x1ED1;i
+                a(href='#') Sim &Dstrok;&#x1EA3;o
+                a(href='#') Sim G&aacute;nh
+                a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+                a(href='#') Sim N&abreve;m Sinh
+                a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+                a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+                a(href='#') Sim Tam Hoa K&eacute;p
+        // vietnamobile
+        .dropdown(style='width: 100%')
+          button.btn(type='button')
+            a(href='#') Vietnamobile
+          .dropdown-content(style='width: 300px')
+            .row
+              .col
+                a(href='#') Sim T&#x1EE9; Qu&yacute;
+                a(href='#') Sim Ng&utilde; Qu&yacute;
+                a(href='#') Sim L&#x1EE5;c Qu&yacute;
+                a(href='#') Sim L&#x1ED9;c Ph&aacute;t
+                a(href='#') Sim Th&#x1EA7;n T&agrave;i
+                a(href='#') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+                a(href='#') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+                a(href='#') Sim Taxi 2
+                a(href='#') Sim Taxi 3
+                a(href='#') Sim Taxi 4
+                a(href='#') N&abreve;m Sinh DD/MM/YY
+              .col
+                a(href='#') Sim L&#x1EB7;p
+                a(href='#') Sim K&eacute;p
+                a(href='#') Sim &Dstrok;&#x1ED1;i
+                a(href='#') Sim &Dstrok;&#x1EA3;o
+                a(href='#') Sim G&aacute;nh
+                a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+                a(href='#') Sim N&abreve;m Sinh
+                a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+                a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+                a(href='#') Sim Tam Hoa K&eacute;p
+      // tìm sim theo giá tiền
+      div
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo Gi&aacute; Ti&#x1EC1;n
+        div(style='width: 100%')
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 100 Tri&#x1EC7;u Tr&#x1EDF; L&ecirc;n
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 50 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 100 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 20 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 50 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 10 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 20 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 5 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 10 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 2 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 5 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 1 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 2 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 500.000 Tri&#x1EC7;u &Dstrok;&#x1EBF;n 1 Tri&#x1EC7;u
+          button.btn(type='button')
+            a(href='##')  T&#x1EEB; 500.000 Tri&#x1EC7;u Tr&#x1EDF; Xu&#x1ED1;ng
+      // tìm sim theo dạng số
+      div
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo D&#x1EA1;ng S&#x1ED1;
+        div(style='width: 100%')
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim T&#x1EE9; Qu&yacute;
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Ng&utilde; Qu&yacute;
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim L&#x1EE5;c Qu&yacute;
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim L&#x1ED9;c Ph&aacute;t
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Th&#x1EA7;n T&agrave;i
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim &Ocirc;ng &Dstrok;&#x1ECB;a
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Ti&#x1EBF;n &Dstrok;&#x1A1;n
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Ti&#x1EBF;n &Dstrok;&ocirc;i
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Taxi 2
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Taxi 3
+          button.btn(type='button', style='width: 100%')
+            a(href='##') Sim Taxi 4
+          button.btn(type='button', style='width: 100%')
+            a(href='##') N&abreve;m Sinh DD/MM/YY
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim L&#x1EB7;p
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim K&eacute;p
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim &Dstrok;&#x1ED1;i
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim &Dstrok;&#x1EA3;o
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim G&aacute;nh
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim &Dstrok;&#x1EB7;c Bi&#x1EC7;t
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim N&abreve;m Sinh
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim &Dstrok;&#x1EA7;u S&#x1ED1; C&#x1ED5;
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim Tam Hoa &Dstrok;&#x1A1;n
+          button.btn(type='button', style='width: 100%')
+            a(href='#') Sim Tam Hoa K&eacute;p
+    // col 2
+    .col-sm-6(style='background-color:white;')
+      // tim sim
+      div
+        div(style='text-align: center' class="btn-info") T&igrave;m Sim S&#x1ED1; &Dstrok;&#x1EB9;p
+        div
+          form.form-inline(action='/action_page.php')
+            label.btn.btn-primary(for='giatu') Gi&aacute; t&#x1EEB;:
+            input#giatu.form-control(type='giatu')
+            label.btn.btn-primary(for='giamax') &Dstrok;&#x1EBF;n:
+            input#giamax.form-control(type='giamax')
+            div(style='width: 100%')
+              select.custom-select(name='cars')
+                option(selected='') Ch&#x1ECD;n m&#x1EA1;ng
+                option(value='viettel') Viettel
+                option(value='vinaphone') Vinaphone
+                option(value='mobifone') Mobilefone
+                option(value='vietnamobile') Vietnamobile
+                option(value='gmobile') Gmobile
+            input.form-control(type='search', name='search', style='width: 80%')
+            button.btn.btn-primary(type='search', style='width: 20%') Search
+          div
+            strong Search:
+            |  *888, 0912*68, 090*888, 0913*, *6688
+      // trang chu
+      p
+        strong B&aacute;n sim s&#x1ED1; &dstrok;&#x1EB9;p
+        |  gi&aacute; r&#x1EBB;.&nbsp;
+        strong Mua sim s&#x1ED1; &dstrok;&#x1EB9;p
+        | &nbsp;gi&aacute; cao.&nbsp;H&#x1EC7; th&#x1ED1;ng ph&acirc;n ph&#x1ED1;i h&#x1A1;n 99 tri&#x1EC7;u sim Viettel, Vinaphone, Mobifone, Vietnamobile, Gmobile.
+      table.table
+        thead.thead-dark
+          tr
+            th STT
+            th S&#x1ED1; thu&ecirc; bao
+            th T&#x1ED5;ng
+            th Gi&aacute;
+            th M&#x1EA1;ng
+            th Lo&#x1EA1;i sim
+            th &Dstrok;&#x1EB7;t Mua
+        tbody
+          each product,index in products
+            tr
+              td=index+1
+              td=product.numberphone
+              td=product.tong
+              td=product.gia
+              td=product.mang
+              td=product.dang
+              td
+                div
+                  img(src="giohang.png", style="width:100%")
+    // col 3
+    .col-sm-3(style='background-color:lavenderblush;')
+      // tim sim theo ngay sinh
+      div()
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo Ng&agrave;y Sinh
+        div
+          form(action='/action_page.php')
+            .form-group
+              input#ngaysinh.form-control(type='ngaysinh', placeholder='dd/mm/yy', name='ngaysinh')
+            button.btn.btn-info(type='search') Search
+      // dien thoai hien he
+      div
+        .btn.btn-info(style='text-align: center;width:100%') &Dstrok;i&#x1EC7;n tho&#x1EA1;i
+        img(src='sdt.gif', title='Gọi ngay để được tư vẫn miến phí!', alt='Số điện thoại của liên hệ với shop. 0912.83.83.83, 0902.83.83.83', style='width: 100%')
+      // tim sim theo dau so
+      div
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo Gi&aacute; Ti&#x1EC1;n
+        div(style='width: 100%')
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 090 - Mobifone
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 091 - Vinaphone
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 092 - Vietnamobile
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 093 - Mobifone
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 094 - Vinaphone
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 096 - Viettel
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 097 - Viettel
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 098 - Viettel
+          button.btn(type='button')
+            a(href='##') Sim S&#x1ED1; &Dstrok;&#x1EB9;p 099 - Gmobile
+      // Tìm sim theo phong thủy
+      div
+        .btn.btn-info(style='text-align: center;width:100%') T&igrave;m Sim Theo Phong Th&#x1EE7;y
+        div
+          form(action='/action_page.php')
+            .form-group
+              label(for='tongnut') T&#x1ED5;ng n&uacute;t:
+              input#tongnut.form-control(type='tongnut', placeholder='Tổng nút từ 1 đến 10', name='tongnut')
+            .form-group
+              label(for='tongdiem') T&#x1ED5;ng &dstrok;i&#x1EC3;m:
+              input#tongdiem.form-control(type='tongdiem', placeholder='Tổng điểm < 82', name='tongdiem')
+            button.btn.btn-primary(type='search') Search
