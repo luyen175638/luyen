@@ -1,0 +1,33 @@
+body {
+    font-family: arial,helvetica,sans-serif;
+}
+h3{ 
+    text-align: center;
+    text-indent: 50px;
+    margin: 10px 10px 10px 10px;
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+p{  
+    padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+a { margin: 10px 0px 10px -180px;
+    text-align: left;
+}
+}
+img {;
+    margin: 0px 40px 0px 30px ;
+    width: 200px;
+    height: 110px;
+}
+td{
+    text-align: center;
+}
+table{
+    
+    text-align: center;
+    margin-left: 100px;
+}
+}

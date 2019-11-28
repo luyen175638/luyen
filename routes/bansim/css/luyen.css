@@ -1,0 +1,20 @@
+
+}
+.container-fluid{
+    border-top:soli 17px #4f84c4 ;
+    backgroun
+}
+.navbar-default{
+    background: #4f84c4;
+    border: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px 0px 30px;
+    border-right: 2px
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-family: Tahoma;
+    font-weight: bold;
+}
